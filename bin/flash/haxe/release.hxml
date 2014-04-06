@@ -1,0 +1,11 @@
+-main ApplicationMain 
+-lib openfl
+-lib feffects
+-cp src/haxe
+-D tools=1.3.2
+-D web
+-swf-version 11.2
+-swf bin/flash/bin/BloHx.swf
+-swf-header 560:720:24:000000
+-cp bin/flash/haxe
+#--remap nme:flash

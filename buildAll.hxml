@@ -1,0 +1,10 @@
+### Flash without openFL
+-cp src/haxe
+-lib feffects
+-swf-version 10
+-swf-header 560:720:30:000000
+-main ftb.app.blohx.Main
+-swf bin/flash-alone/blohx.swf
+
+### openFL Flash
+-cmd lime build flash -clean

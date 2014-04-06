@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="BloHx" package="ftb.app.blohx" version="1.0.0" company="filt3rek" />
+	
+	<!-- output -->
+	<app main="ftb.app.blohx.Main" file="BloHx" path="bin" />
+	
+	<window background="#000000" fps="24" orientation="portrait" vsync="true" antialiasing="0" />
+	<window width="560" height="720" unless="mobile" />
+	
+	<android target-sdk-version="19" />
+	
+	<!-- classpath, haxe libs -->
+	<source path="src/haxe" />
+	<haxelib name="openfl" />
+	<haxelib name="feffects" />
+	
+	<!-- icon -->
+	<icon path="assets/icon.png" size="114" />
+	<icon path="assets/icon.png" size="96" />
+	<icon path="assets/icon.png" size="72" />
+	<icon path="assets/icon.png" size="48" />
+	<icon path="assets/icon.png" size="36" />
+		
+	<!-- assets -->
+	<assets path="assets">
+		<image path="img/Haxe_logo_grayscale.png" id="gray" />
+		<sound path="snd/bounce.wav" id="bounce" />
+		<sound path="snd/explosion.wav" id="explosion" />
+		<sound path="snd/fired.wav" id="fired" />
+		<sound path="snd/mutation.wav" id="mutation" />
+		<sound path="snd/no_match.wav" id="no_match" />
+		<font path="font/absender1.ttf" id="absender" />
+	</assets>
+</project>
